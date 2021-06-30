@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Panel should render without errors 1`] = `
+.c0 {
+  border-width: 1px;
+  border-style: solid;
+  border-width: 0;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    Some content 
+  </div>
+</div>
+`;

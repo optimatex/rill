@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`mainThemeFactory should act as the factory 1`] = `
+Object {
+  "button": Object {
+    "background": "#474E5F",
+    "color": "#C2BCBC",
+  },
+  "card": Object {
+    "background": "#37393E",
+    "color": "#C2BCBC",
+  },
+  "column": Object {
+    "maxWidth": 560,
+  },
+  "font": Object {
+    "fontFamily": "open-sans-regular",
+    "fontSize": 14,
+    "fontWeight": "normal",
+    "lineHeight": 1,
+  },
+  "frame": Object {
+    "columnGap": 10,
+    "rowGap": 18,
+    "sideIndent": 10,
+    "verticalIndent": 10,
+  },
+  "input": Object {
+    "background": "#2A2B2F",
+    "border": "#41454C",
+    "color": "#989898",
+  },
+  "layout": Object {
+    "columnGap": 18,
+    "rowGap": 18,
+  },
+  "mode": "dark",
+  "outline": Object {
+    "borderRadius": 4,
+  },
+  "surface": Object {
+    "background": "#1D1D1D",
+  },
+}
+`;

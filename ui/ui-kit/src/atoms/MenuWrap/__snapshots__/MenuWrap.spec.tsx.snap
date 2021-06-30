@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MenuWrap should render without errors 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.c0 > * {
+  margin-bottom: px;
+}
+
+.c0 > *:last-child {
+  margin-bottom: 0;
+}
+
+<div
+  class="c0"
+  data-testid="test-menu"
+>
+  Some content 
+</div>
+`;

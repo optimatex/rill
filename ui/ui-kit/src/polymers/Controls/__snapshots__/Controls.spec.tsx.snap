@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Controls should render without errors 1`] = `
+Array [
+  .c1::before {
+  font-size: 22px;
+  position: relative;
+  color: #6b62b1;
+  top: px;
+  bottom: 1.5px;
+  left: px;
+  right: 1.5px;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 4px 8px;
+  border-width: 1px;
+  border-style: solid;
+  background: red;
+  color: white;
+  padding: 0;
+  border-radius: 50px;
+  width: 34px;
+  height: 34px;
+}
+
+<button
+    class="c0"
+  >
+    <i
+      class="c1 icon-rewind"
+      color="#6b62b1"
+      name="rewind"
+      size="22"
+    />
+  </button>,
+  .c1::before {
+  font-size: 15px;
+  position: relative;
+  color: green;
+  top: px;
+  bottom: px;
+  left: px;
+  right: px;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 4px 8px;
+  border-width: 1px;
+  border-style: solid;
+  background: red;
+  color: white;
+  padding: 0;
+  border-radius: 50px;
+  width: 34px;
+  height: 34px;
+}
+
+<button
+    class="c0"
+  >
+    <i
+      class="c1 icon-menu"
+      color="green"
+      name="menu"
+      size="15"
+    />
+  </button>,
+  .c1::before {
+  font-size: 43px;
+  position: relative;
+  color: pink;
+  top: px;
+  bottom: px;
+  left: px;
+  right: px;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 4px 8px;
+  border-width: 1px;
+  border-style: solid;
+  background: red;
+  color: white;
+  padding: 0;
+  border-radius: 50px;
+  width: 34px;
+  height: 34px;
+}
+
+<button
+    class="c0"
+  >
+    <i
+      class="c1 icon-play"
+      color="pink"
+      name="play"
+      size="43"
+    />
+  </button>,
+]
+`;

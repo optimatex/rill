@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImageCropper should render without errors 1`] = `
+.c1 {
+  object-fit: cover;
+  max-width: 100%;
+  display: block;
+}
+
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+  height: 30px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 30px;
+  overflow: hidden;
+  border-radius: 50px;
+}
+
+<div
+  class="c0"
+>
+  <img
+    class="c1"
+    src="url-1.jpg"
+  />
+</div>
+`;

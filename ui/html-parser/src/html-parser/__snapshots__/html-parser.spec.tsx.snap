@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text Editor Container should pass proper props to components 1`] = `
+Array [
+  Array [
+    "Египетский фараон Джосера известный тем, что активно искал  артефакты и знания богов. Одним из результатов этих поисков стала огромная коллекция предметов, найдена в галереях под его пирамидой. ",
+  ],
+  1,
+]
+`;
+
+exports[`Text Editor Container should render without errors 1`] = `
+<article>
+  
+
+  <p>
+    Египетский фараон Джосера известный тем, что активно искал  артефакты и знания богов. Одним из результатов этих поисков стала огромная коллекция предметов, найдена в галереях под его пирамидой. 
+  </p>
+  <figure
+    class="contentMedia "
+  >
+    <img
+      src="96f90d02-6a3d-4535-961d-a2d4e2571e6b"
+    />
+  </figure>
+  <p>
+    Коллекцию составляли преимущественно чаши и вазы. Но среди них были сосуды маленького размера из полупрозрачного камня, по форме напоминающие лампочки или химические колбы. Так же там присутствовали предметы совершенно непонятного назначения, напоминающие лопасти или другие технологические детали.
+  </p>
+  <figure
+    class="contentMedia "
+  >
+    <img
+      src="6411477f-e6bc-427d-84f5-1d557b2cc82a"
+    />
+  </figure>
+  <p>
+    Большинство предметы изготовлено в невероятно высоком качестве, из точным соблюдением геометрических пропорций и фигур. Некоторые стенки сосудов толщиной всего в 1-2 мм., другие имеют надписи толщиной в 0.15 мм. Все это указывает на следы машинной обработки
+  </p>
+  
+
+  <figure
+    class="contentMedia "
+  >
+    <iframe />
+  </figure>
+  <figure
+    class="contentMedia "
+  >
+    <iframe />
+  </figure>
+  <figure
+    class="contentMedia "
+  >
+    <iframe />
+  </figure>
+  <figure
+    class="contentMedia "
+  >
+    <iframe />
+  </figure>
+  <figure
+    class="contentMedia "
+  >
+    <iframe />
+  </figure>
+  <figure
+    class="contentMedia "
+  >
+    <iframe />
+  </figure>
+  <figure
+    class="contentMedia "
+  >
+    <iframe />
+  </figure>
+  
+
+</article>
+`;

@@ -1,0 +1,11 @@
+{
+    "viewportWidth": 1400,
+    "viewportHeight": 1000,
+    "experimentalFetchPolyfill": true,
+    "integrationFolder": "cypress/integration",
+    "nodeVersion": "system",
+    "env": {
+        "coverage": false
+    },
+    "video": false
+}

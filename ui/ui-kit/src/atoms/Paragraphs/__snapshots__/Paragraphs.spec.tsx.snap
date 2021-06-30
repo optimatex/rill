@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Paragraphs should render without errors 1`] = `
+.c0 {
+  font-size: 8px;
+  font-family: roboto;
+  font-weight: bolder;
+}
+
+<p
+  class="c0"
+>
+  Some content
+</p>
+`;

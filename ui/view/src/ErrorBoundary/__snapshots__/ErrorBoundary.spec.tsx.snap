@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErrorBoundary should render error card in case an error occured 1`] = `
+<button>
+  Some content
+</button>
+`;
+
+exports[`ErrorBoundary should render proper children in case no error occured 1`] = `
+<button>
+  Some content
+</button>
+`;

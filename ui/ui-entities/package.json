@@ -1,0 +1,30 @@
+{
+  "name": "@rill/ui-entities",
+  "version": "0.1.0",
+  "private": true,
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -cw",
+    "lint": "eslint . --ignore-path ../../.eslintignore --ext ts --ext tsx",
+    "lint:fix": "eslint --fix . --ignore-path ../../.eslintignore --ext ts --ext tsx"
+  },
+  "dependencies": {
+    "@rill/rill-meta": "0.1.0",
+    "@rill/draft": "0.1.0",
+    "@rill/html-parser": "0.1.0",
+    "@rill/ui-kit": "0.1.0",
+    "@rill/view": "0.1.0",
+    "@rill/eslint-config-bundle-react": "0.1.0"
+  },
+  "peerDependencies": {
+    "@rollup/plugin-typescript": "^6.1.0",
+    "tslib": "^2.0.3",
+    "typescript": "^4.0.3"
+  }
+}

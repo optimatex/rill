@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Toggle should render without errors 1`] = `
+.c0 {
+  box-sizing: border-box;
+  padding: 4px 8px;
+  border-width: 1px;
+  border-style: solid;
+  width: 100%;
+  position: relative;
+  padding: 0;
+  width: 42px;
+  height: 24px;
+  border-radius: 50px;
+}
+
+.c0:hower {
+  opacity: 0.8;
+}
+
+.c0:active {
+  opacity: 0.9;
+}
+
+.c0:focus {
+  opacity: 1;
+}
+
+.c1 {
+  border-width: 1px;
+  border-style: solid;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  height: 14px;
+  width: 14px;
+  border-radius: 50px;
+  background-color: blue;
+  -webkit-transition: left 0.5s 0s;
+  transition: left 0.5s 0s;
+}
+
+<button
+  class="c0"
+>
+  <div
+    class="c1"
+  />
+</button>
+`;

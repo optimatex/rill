@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Post should render post body 1`] = `
+<button>
+  button text
+</button>
+`;
+
+exports[`Post should render post title 1`] = `
+.c0 {
+  margin: 0;
+  line-height: 1rem;
+  font-family: 'open-sans-regular';
+}
+
+<h3
+  class="c0"
+>
+  1 Some content 1
+</h3>
+`;
+
+exports[`Post should render without errors 1`] = `
+.c2 {
+  margin: 0;
+  line-height: 1rem;
+  font-family: 'open-sans-regular';
+}
+
+.c0 {
+  padding: 0;
+  border-width: 1px;
+  border-style: solid;
+  background: red;
+  color: white;
+}
+
+.c0 > *:nth-child(1) {
+  border-radius: 4px 4px 0 0;
+}
+
+.c0 > *:last-child {
+  border-radius: 0 0 4px 4px;
+}
+
+.c1 {
+  box-sizing: border-box;
+  padding: 5px 8px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+
+<div
+  class="c0"
+  data-testid="post"
+>
+  <div
+    class="c1"
+  >
+    <h3
+      class="c2"
+    >
+      1 Some content 1
+    </h3>
+  </div>
+  <button>
+    button text
+  </button>
+</div>
+`;

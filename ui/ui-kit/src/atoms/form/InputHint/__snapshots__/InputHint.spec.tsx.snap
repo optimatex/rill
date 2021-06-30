@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputHint should render without errors 1`] = `
+.c0 {
+  border-width: 1px;
+  border-style: solid;
+  box-sizing: border-box;
+  padding: 4px 8px;
+  position: absolute;
+  top: 95%;
+  left: 0%;
+  -webkit-transform: translateX(15px);
+  -ms-transform: translateX(15px);
+  transform: translateX(15px);
+  white-space: nowrap;
+  background: red;
+  color: #ffffff;
+  z-index: 2;
+}
+
+<span
+  class="c0"
+>
+  Some hint
+</span>
+`;

@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should render without errors 1`] = `
+.c0 {
+  background: red;
+  color: white;
+  box-sizing: border-box;
+  padding: 5px 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  z-index: 30;
+  height: 50px;
+}
+
+.c0 > * {
+  margin-right: 16px;
+}
+
+.c0 > *:last-child {
+  margin-right: 0;
+}
+
+<header
+  class="c0"
+  height="50"
+>
+  some header content
+</header>
+`;

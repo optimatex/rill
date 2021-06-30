@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormLabel FormLabelText 1`] = `
+.c0 {
+  font: inherit;
+}
+
+<span
+  class="c0"
+  for="lob"
+>
+  1 Some content 1
+</span>
+`;
+
+exports[`FormLabel FormLabelWrap 1`] = `
+.c0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.c0 > * {
+  margin-bottom: px;
+}
+
+.c0 > *:last-child {
+  margin-bottom: 0;
+}
+
+<label
+  class="c0"
+>
+  2 Some content 2
+</label>
+`;

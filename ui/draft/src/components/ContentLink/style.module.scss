@@ -1,0 +1,30 @@
+@import '~common/__style__/ingredients/buttons';
+
+.link {
+  text-decoration: none;
+
+  i {
+    display: inline-block;
+    margin-right: 7px;
+    transform: translateY(1px);
+  }
+}
+
+.is-btn {
+  @extend %button--main;
+
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 0 0 8px;
+  min-width: 49%;
+  padding: 7px 0;
+  text-align: center;
+
+  &:nth-of-type(odd) {
+    margin-right: 1.2%;
+  }
+
+  @media (max-width: 600px) {
+    width: 100%;
+  }
+}

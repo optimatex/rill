@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Image should render without errors 1`] = `
+.c0 {
+  object-fit: cover;
+  max-width: 100%;
+  display: block;
+}
+
+<img
+  class="c0"
+  src="https://img.com/"
+/>
+`;

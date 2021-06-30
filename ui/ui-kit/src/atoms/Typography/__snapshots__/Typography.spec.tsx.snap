@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Typography Heading_3 should render without errors 1`] = `
+.c0 {
+  margin: 0;
+  line-height: 1rem;
+  font-family: 'open-sans-regular';
+}
+
+<h3
+  class="c0"
+>
+  Title 3
+</h3>
+`;
+
+exports[`Typography Paragraph should render without errors 1`] = `
+.c0 {
+  font-size: 8px;
+  font-family: roboto;
+  font-weight: bolder;
+}
+
+<p
+  class="c0"
+>
+  Paragraph
+</p>
+`;

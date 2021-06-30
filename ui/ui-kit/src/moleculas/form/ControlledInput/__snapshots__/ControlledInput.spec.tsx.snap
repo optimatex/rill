@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ControlledInput should render without errors 1`] = `
+Array [
+  <input
+    class=""
+    name="test name"
+    placeholder=""
+    type="text"
+    value="test value"
+  />,
+]
+`;

@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormField should render without errors 1`] = `
+.c3 {
+  box-sizing: border-box;
+  padding: 4px 8px;
+  border-width: 1px;
+  border-style: solid;
+  width: 100%;
+}
+
+.c3:hower {
+  opacity: 0.8;
+}
+
+.c3:active {
+  opacity: 0.9;
+}
+
+.c3:focus {
+  opacity: 1;
+}
+
+.c1 {
+  font: inherit;
+}
+
+.c0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.c0 > * {
+  margin-bottom: px;
+}
+
+.c0 > *:last-child {
+  margin-bottom: 0;
+}
+
+.c2 {
+  border-width: 1px;
+  border-style: solid;
+  box-sizing: border-box;
+  padding: 4px 8px;
+  position: absolute;
+  top: 95%;
+  left: 0%;
+  -webkit-transform: translateX(15px);
+  -ms-transform: translateX(15px);
+  transform: translateX(15px);
+  white-space: nowrap;
+  background: red;
+  color: #ffffff;
+  z-index: 2;
+}
+
+<label
+  class="c0"
+  data-testid="field-some-name"
+>
+  <span
+    class="c1"
+    for="some-name"
+  >
+    warrior
+  </span>
+  <span
+    class="c2"
+  >
+    some error
+  </span>
+  <input
+    class="c3"
+    name="test name"
+    placeholder=""
+    type="text"
+    value=""
+  />
+</label>
+`;
+
+exports[`FormField should render without errors 2`] = `
+<span
+  class="sc-iwyYcG bmbXkw"
+>
+  some error
+</span>
+`;
+
+exports[`FormField should render without errors 3`] = `
+Array [
+  <input
+    class="sc-bdfBwQ gEwBtF"
+    name="test name"
+    placeholder=""
+    type="text"
+    value=""
+  />,
+]
+`;
+
+exports[`FormField should render without errors 4`] = `
+<span
+  class="sc-fKFyDc fYCVZm"
+  for="some-name"
+>
+  warrior
+</span>
+`;

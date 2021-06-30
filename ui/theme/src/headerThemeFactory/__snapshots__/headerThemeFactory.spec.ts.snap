@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`mainThemeFactory should act as the factory 1`] = `
+Object {
+  "column": Object {
+    "maxWidth": 150,
+  },
+  "frame": Object {
+    "columnGap": 14,
+    "rowGap": 18,
+    "sideIndent": 8,
+    "verticalIndent": 6,
+  },
+}
+`;

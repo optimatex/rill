@@ -1,0 +1,209 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Messages should render without errors 1`] = `
+.c3 {
+  object-fit: cover;
+  max-width: 100%;
+  display: block;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+  height: 30px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 30px;
+  overflow: hidden;
+  border-radius: 50px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  padding: 5px 8px;
+}
+
+.c1 > * {
+  margin-right: 16px;
+}
+
+.c1 > *:last-child {
+  margin-right: 0;
+}
+
+.c1 > * {
+  margin-right: 12px;
+}
+
+.c5 {
+  font-size: 8px;
+  font-family: roboto;
+  font-weight: bolder;
+}
+
+.c4 p {
+  padding: 0;
+  margin: 0;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.c0 > * {
+  margin-bottom: px;
+}
+
+.c0 > *:last-child {
+  margin-bottom: 0;
+}
+
+<div>
+  <ul
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <img
+          class="c3"
+          src="https://i.pravatar.cc/60"
+        />
+      </div>
+      <div
+        class="c4"
+      >
+        <p
+          class="c5"
+        >
+          I've been a QA engineer with comp.sci background working in many places building quality tools for over 11 years. Last year during the pandemic most of my company was fired, including myself. So, I decided to apply for a web developer role at Napster. This video was literally all I used to do the technical exam. I am now finishing my probation period! Thanks, mate!
+        </p>
+      </div>
+    </div>
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <img
+          class="c3"
+          src="https://i.pravatar.cc/62"
+        />
+      </div>
+      <div
+        class="c4"
+      >
+        <p
+          class="c5"
+        >
+          Who else was feeling so hopeful that he would see that he used “d” instead of “id” on one of the json server entries. 
+Btw I’m completely new to React and this tutorial has been really great! Really easy to follow, well explained, and just focusing on fundamentals; exactly what I expect in a crash course 👍 Keep it up!
+        </p>
+      </div>
+    </div>
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <img
+          class="c3"
+          src="https://i.pravatar.cc/63"
+        />
+      </div>
+      <div
+        class="c4"
+      >
+        <p
+          class="c5"
+        >
+          Please make a tutorial about Spring. Thank you so much, you are a legend. :D
+        </p>
+      </div>
+    </div>
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <img
+          class="c3"
+          src="https://i.pravatar.cc/64"
+        />
+      </div>
+      <div
+        class="c4"
+      >
+        <p
+          class="c5"
+        >
+          One small thing I want to mention is around 33:20 when we add the icons, you will see a div with the class of “card-body” just pop in there. That got cut out for some reason, so just be sure to add that. Thanks for watching guys
+        </p>
+      </div>
+    </div>
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <img
+          class="c3"
+          src="https://i.pravatar.cc/65"
+        />
+      </div>
+      <div
+        class="c4"
+      >
+        <p
+          class="c5"
+        >
+          glad to hear your voice and see how great teacher you are. Btw I’m completely new to React and this tutorial has been really great!
+        </p>
+      </div>
+    </div>
+  </ul>
+</div>
+`;

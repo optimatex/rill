@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavMenu should render without errors 1`] = `
+Array [
+  .c1::before {
+  font-size: 22px;
+  position: relative;
+  color: #6b62b1;
+  top: px;
+  bottom: 1.5px;
+  left: px;
+  right: 1.5px;
+}
+
+.c0 {
+  box-sizing: border-box;
+  padding: 4px 8px;
+  color: inherit;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0 > i {
+  margin-right: 12px;
+}
+
+<a
+    class="c0"
+    href="play"
+  >
+    <i
+      class="c1 icon-rewind"
+      color="#6b62b1"
+      name="rewind"
+      size="22"
+    />
+    Play track
+  </a>,
+  .c1::before {
+  font-size: 15px;
+  position: relative;
+  color: green;
+  top: px;
+  bottom: px;
+  left: px;
+  right: px;
+}
+
+.c0 {
+  box-sizing: border-box;
+  padding: 4px 8px;
+  color: inherit;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0 > i {
+  margin-right: 12px;
+}
+
+<a
+    class="c0"
+    href="pause"
+  >
+    <i
+      class="c1 icon-menu"
+      color="green"
+      name="menu"
+      size="15"
+    />
+    Pause track
+  </a>,
+  .c1::before {
+  font-size: 43px;
+  position: relative;
+  color: pink;
+  top: px;
+  bottom: px;
+  left: px;
+  right: px;
+}
+
+.c0 {
+  box-sizing: border-box;
+  padding: 4px 8px;
+  color: inherit;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0 > i {
+  margin-right: 12px;
+}
+
+<a
+    class="c0"
+    href="next"
+  >
+    <i
+      class="c1 icon-play"
+      color="pink"
+      name="play"
+      size="43"
+    />
+    Next track
+  </a>,
+]
+`;

@@ -10,9 +10,6 @@ module.exports = {
   testPathIgnorePatterns: [
     '/lib/',
     '/node_modules/',
-    'stezor/src/**/*',
-    'lander-',
-    'trance/',
     'packages/',
   ],
 };

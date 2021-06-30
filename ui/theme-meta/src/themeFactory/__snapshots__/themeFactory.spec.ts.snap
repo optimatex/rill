@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`themeFactory themeExtenderFactory() with only valuesMap provided 1`] = `
+Object {
+  "button": Object {
+    "background": "yellow",
+    "color": "pink",
+  },
+  "buttonActive": Object {
+    "background": "pink",
+    "color": "grey",
+  },
+  "card": Object {
+    "background": "blue",
+    "color": "cyan",
+  },
+  "column": Object {
+    "maxWidth": 560,
+  },
+  "font": Object {
+    "fontFamily": "roboto",
+    "fontSize": 8,
+    "fontWeight": "bolder",
+  },
+  "frame": Object {
+    "rowGap": 16,
+    "sideIndent": 8,
+    "verticalIndent": 5,
+  },
+  "layout": Object {
+    "columnGap": 18,
+    "rowGap": 18,
+  },
+  "mode": "dark",
+  "surface": Object {
+    "background": "orange",
+    "color": "green",
+  },
+}
+`;

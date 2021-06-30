@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImagesLayout should render without errors 1`] = `
+.c1 {
+  object-fit: cover;
+  max-width: 100%;
+  display: block;
+}
+
+.c0 {
+  grid-column-start: auto;
+  grid-row-start: auto;
+}
+
+.c0 img {
+  width: 100%;
+  height: 100%;
+}
+
+<div
+  class=""
+  data-testid="images-layout"
+>
+  <div
+    class="c0"
+  >
+    <img
+      class="c1"
+      src="https://images.unsplash.com/photo-1561344640-2453889cde5b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1217&q=80"
+    />
+  </div>
+  <div
+    class="c0"
+  >
+    <img
+      class="c1"
+      src="https://images.unsplash.com/photo-1501769752-a59efa2298ce?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+    />
+  </div>
+  <div
+    class="c0"
+  >
+    <img
+      class="c1"
+      src="https://images.unsplash.com/photo-1533577116850-9cc66cad8a9b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+    />
+  </div>
+</div>
+`;

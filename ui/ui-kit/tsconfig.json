@@ -1,0 +1,29 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "*": [
+        "./src/*"
+      ],
+      "src/*": [
+        "./src/*"
+      ],
+      "test": [
+        "./test"
+      ],
+      "@rill/*": [
+        "../*",
+        "../*/dist",
+        "../*/dist/src",
+      ]
+    },
+  },
+  "include": [
+    "src",
+    "../../config/jest/typings.d.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

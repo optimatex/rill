@@ -1,0 +1,10 @@
+.vscode
+jest-cache
+
+**/.DS_Store
+
+node_modules
+dist
+
+**/cypress/videos
+**/cypress/screenshots

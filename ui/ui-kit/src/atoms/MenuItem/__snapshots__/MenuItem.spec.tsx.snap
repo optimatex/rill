@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MenuItem should render without errors 1`] = `
+.c0 {
+  box-sizing: border-box;
+  padding: 4px 8px;
+  color: inherit;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0 > i {
+  margin-right: 12px;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    Click me!
+  </div>
+</div>
+`;

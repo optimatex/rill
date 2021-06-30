@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Buticon should render without errors 1`] = `
+.c1::before {
+  font-size: 22px;
+  position: relative;
+  color: #6b62b1;
+  top: px;
+  bottom: 1.5px;
+  left: px;
+  right: 1.5px;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 4px 8px;
+  border-width: 1px;
+  border-style: solid;
+  background: red;
+  color: white;
+  padding: 0;
+  border-radius: 50px;
+  width: 34px;
+  height: 34px;
+}
+
+<button
+  class="c0"
+>
+  <i
+    class="c1 icon-rewind"
+    color="#6b62b1"
+    name="rewind"
+    size="22"
+  />
+</button>
+`;
+
+exports[`Button should render without errors 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 4px 8px;
+  border-width: 1px;
+  border-style: solid;
+  background: red;
+  color: white;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+<button
+  class="c0"
+>
+  dssd
+</button>
+`;

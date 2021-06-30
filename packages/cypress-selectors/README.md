@@ -1,0 +1,1 @@
+Library for creating queries for cypress e2e framework
