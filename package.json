@@ -1,6 +1,5 @@
 {
 	"name": "root",
-	"private": true,
 	"scripts": {
 		"clean": "lerna exec rimraf node_modules --parallel",
 		"clean:dist": "lerna exec rimraf dist --parallel",
