@@ -3,9 +3,7 @@
     "eslint/*",
     "packages/*",
     "projects/*",
-    "realm/*",
     "state/*",
-    "trance/*",
     "ui/*"
   ],
   "version": "0.0.0"

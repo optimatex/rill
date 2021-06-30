@@ -1,0 +1,11 @@
+{
+    "private": true,
+    "name": "@rill/eslint-config-mocha",
+    "version": "0.1.0",
+    "main": "index.js",
+    "peerDependencies": {
+        "babel-eslint": "10.1.0",
+        "eslint": "7.18.0",
+        "eslint-plugin-mocha": "18.2.1"
+    }
+}

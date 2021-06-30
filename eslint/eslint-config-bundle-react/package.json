@@ -1,0 +1,13 @@
+{
+    "private": true,
+    "name": "@rill/eslint-config-bundle-react",
+    "version": "0.1.0",
+    "main": "index.js",
+    "devDependencies": {
+        "@rill/eslint-config-jest": "0.1.0",
+        "@rill/eslint-config-import": "0.1.0",
+        "@rill/eslint-config-promise": "0.1.0",
+        "@rill/eslint-config-react": "0.1.0",
+        "@rill/eslint-config-ts": "0.1.0"
+    }
+}

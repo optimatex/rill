@@ -3,7 +3,7 @@
     "outDir": "./dist",
     "baseUrl": ".",
     "paths": {
-      "@sheer/*": [
+      "@rill/*": [
         "packages/*/src",
         "packages/*/dist",
         "packages/*/dist/src"

@@ -1,0 +1,9 @@
+{
+    "private": true,
+    "name": "@rill/eslint-config-ramda-ts",
+    "version": "0.1.0",
+    "main": "index.js",
+    "peerDependencies": {
+        "eslint-plugin-ramda": "2.5.1"
+    }
+}
