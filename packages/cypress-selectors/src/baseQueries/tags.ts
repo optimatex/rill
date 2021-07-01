@@ -1,8 +1,10 @@
-import { attributeWithTag, testId } from './attributes';
+import { attributeWithTag, testId, href } from './attributes';
 
 // Constants
 
 const button = 'button';
+
+const link = 'a';
 
 const form = 'form';
 
@@ -15,6 +17,8 @@ const span = 'span';
 export const spanById = () => attributeWithTag(span, testId);
 
 export const buttonById = () => attributeWithTag(button, testId);
+
+export const linkByUrl = () => attributeWithTag(link, href);
 
 // Forms
 

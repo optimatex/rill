@@ -1,15 +1,19 @@
-import { navToMessageForm } from '../support/app.commands';
-import { verifyInput, verifyForm } from '../employee';
+import { navToMessages } from '../support/app.commands';
+import {
+  verifyRichEditorInput,
+  verifyRichEditorInputIsEmpty,
+  verifyRichEditorForm,
+} from '../employee';
 import { formId } from '../../src/@constants';
 
 context('MessageForm', () => {
   beforeEach(() => {
-    navToMessageForm();
+    navToMessages();
   });
 
-  it('Verify inputs', () => {
-    verifyInput('some value')('input_1');
-    // @ts-ignore
-    verifyForm(formId.messageForm);
+  it('Verify message form', () => {
+    verifyRichEditorInput('some value')('text-editor-wrap');
+    verifyRichEditorForm('text-editor-wrap');
+    verifyRichEditorInputIsEmpty('text-editor-wrap');
   });
 });

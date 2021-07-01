@@ -1,5 +1,6 @@
 export {
   byTestId,
+  linkByUrl,
   // Form
   inputByName,
   richEditorByTestId,

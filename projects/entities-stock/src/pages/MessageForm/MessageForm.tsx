@@ -5,7 +5,7 @@ import { makeClickHandler } from '../../utils';
 
 const Interactive = () => (
   <Card>
-    <MessageForm />
+    <MessageForm onAddMessage={() => {}} />
   </Card>
 );
 
