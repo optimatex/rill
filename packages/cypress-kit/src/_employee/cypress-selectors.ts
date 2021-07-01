@@ -6,4 +6,4 @@ export {
   richEditorByTestId,
   formSubmitById,
   richTextFormSubmitById,
-} from '@sheer/cypress-selectors';
+} from '@rill/cypress-selectors';

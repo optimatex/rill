@@ -5,4 +5,4 @@ export {
   css,
   styled,
   createGlobalStyle,
-} from '@sheer/view';
+} from '@rill/view';

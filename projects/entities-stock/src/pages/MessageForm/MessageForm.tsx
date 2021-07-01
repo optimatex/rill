@@ -1,12 +1,12 @@
 import { React } from '_employee/view';
-import { Button, ButtonActive, Row, Card } from '_employee/ui-kit';
+import { Button, ButtonActive, Row, Post } from '_employee/ui-kit';
 import { MessageForm } from '_employee/ui-entities';
 import { makeClickHandler } from '../../utils';
 
-const Interactive = () => (
-  <Card>
+const MessageFormPage = () => (
+  <Post title="Message form (rich text editor based on draft-js framework">
     <MessageForm onAddMessage={() => {}} />
-  </Card>
+  </Post>
 );
 
-export default Interactive;
+export default MessageFormPage;

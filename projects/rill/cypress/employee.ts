@@ -8,6 +8,6 @@ export {
   // Selectors
   // Commands
   navigate,
-} from '@sheer/cypress-kit';
+} from '@rill/cypress-kit';
 
-export { byTestId, inputByName } from '@sheer/cypress-selectors';
+export { byTestId, inputByName } from '@rill/cypress-selectors';

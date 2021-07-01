@@ -1,1 +1,1 @@
-export { pipe, compose, curry } from '@sheer/utils';
+export { pipe, compose, curry } from '@rill/utils';

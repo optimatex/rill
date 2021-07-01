@@ -7,7 +7,7 @@ import AppSidebar from '../AppSidebar';
 import AppContent from '../AppContent';
 
 function App() {
-  const [currentKey, setKey] = useState(Keys.messages);
+  const [currentKey, setKey] = useState(Keys.messageForm);
 
   return (
     <ErrorBoundary scope="app-tabs" renderFallback={renderErrorCard}>
