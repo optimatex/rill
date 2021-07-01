@@ -1,5 +1,9 @@
 import { navToChat } from '../support/app.commands';
-import { verifyInput, verifyForm } from '../employee';
+import {
+  verifyRichEditorInput,
+  verifyRichEditorInputIsEmpty,
+  verifyRichEditorForm,
+} from '../employee';
 import { testId } from '../../src/@constants';
 
 context('Chat', () => {
@@ -8,7 +12,8 @@ context('Chat', () => {
   });
 
   it('Verify sidebar', () => {
-    verifyInput('some value')('input_1');
-    verifyForm(testId.messageForm);
+    verifyRichEditorInput('some value')('text-editor-wrap');
+    verifyRichEditorForm('text-editor-wrap');
+    verifyRichEditorInputIsEmpty('text-editor-wrap');
   });
 });

@@ -1,1 +1,1 @@
-export { Button, ButtonActive } from '@rill/ui-kit';
+export { ButtonActive } from '@sheer/ui-kit';

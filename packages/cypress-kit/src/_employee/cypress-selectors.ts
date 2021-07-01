@@ -2,5 +2,7 @@ export {
   byTestId,
   // Form
   inputByName,
+  richEditorByTestId,
   formSubmitById,
-} from '@rill/cypress-selectors';
+  richTextFormSubmitById,
+} from '@sheer/cypress-selectors';

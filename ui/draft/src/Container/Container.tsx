@@ -1,7 +1,7 @@
 import { React, useState } from '_employee/view';
 import { Editor, EditorState, convertToRaw } from '_employee/draft';
 import { draftToHtml } from '_employee/draftjs-to-html';
-import { Button } from '_employee/ui-kit';
+import { ButtonActive } from '_employee/ui-kit';
 
 import { IEditorProps } from '@types';
 import GlobalStyles from './globalStyles';
@@ -39,7 +39,9 @@ const Container = (props: IEditorProps) => {
         ref={editor}
       />
 
-      <Button onClick={handleSubmit}>Send</Button>
+      <ButtonActive type="submit" onClick={handleSubmit}>
+        Send
+      </ButtonActive>
 
       <GlobalStyles />
     </StyledWrap>

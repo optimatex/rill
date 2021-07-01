@@ -1,5 +1,5 @@
 import { curry } from '_employee/utils';
 
-export const append = curry(
+export const include = curry(
   (queryToAdd: string, acceptor: string) => `${acceptor} ${queryToAdd}`,
 );

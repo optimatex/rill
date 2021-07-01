@@ -4,6 +4,8 @@ import { curry } from '_employee/utils';
 
 export const testId = 'data-testid';
 
+export const contentEditable = 'contenteditable';
+
 // Base Selectors
 
 export const attributeWithTag = curry(
