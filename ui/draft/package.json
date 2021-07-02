@@ -1,7 +1,7 @@
 {
   "name": "@rill/draft",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.1.1",
+  "private": false,
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
@@ -15,17 +15,17 @@
     "lint:fix": "eslint --fix . --ignore-path ../../.eslintignore --ext ts --ext tsx"
   },
   "dependencies": {
-    "@rill/ui-kit": "0.1.0",
-    "@rill/view": "0.1.0",
-    "@rill/eslint-config-bundle-react": "0.1.0",
-    "draft-js": "0.11.7",
+    "@rill/eslint-config-bundle-react": "0.1.1",
+    "@rill/ui-kit": "0.1.1",
+    "@rill/view": "0.1.1",
     "draft-convert": "2.1.10",
+    "draft-js": "0.11.7",
     "draftjs-to-html": "^0.9.1"
   },
   "peerDependencies": {
-    "@types/draft-js": "0.10.44",
-    "@types/draft-convert": "2.1.1",
     "@rollup/plugin-typescript": "6.1.0",
+    "@types/draft-convert": "2.1.1",
+    "@types/draft-js": "0.10.44",
     "tslib": "2.0.3",
     "typescript": "4.0.3"
   }

@@ -1,10 +1,10 @@
 {
-    "private": true,
+    "private": false,
     "name": "@rill/eslint-config-ts",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "main": "index.js",
     "devDependencies": {
-        "@rill/eslint-config-basic": "0.1.0"
+        "@rill/eslint-config-basic": "0.1.1"
     },
     "peerDependencies": {
         "babel-eslint": "10.1.0",

@@ -1,7 +1,7 @@
 {
   "name": "@rill/theme-meta",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.1.1",
+  "private": false,
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
@@ -15,8 +15,8 @@
     "lint:fix": "eslint --fix . --ignore-path ../../.eslintignore --ext ts"
   },
   "dependencies": {
-    "@rill/utils": "0.1.0",
-    "@rill/eslint-config-bundle-ts-lib": "0.1.0"
+    "@rill/eslint-config-bundle-ts-lib": "0.1.1",
+    "@rill/utils": "0.1.1"
   },
   "peerDependencies": {
     "@rollup/plugin-typescript": "6.1.0",

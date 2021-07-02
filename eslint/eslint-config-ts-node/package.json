@@ -1,12 +1,12 @@
 {
-    "private": true,
+    "private": false,
     "name": "@rill/eslint-config-ts-node",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "main": "index.js",
     "devDependencies": {
-        "@rill/eslint-config-mocha": "0.1.0",
-        "@rill/eslint-config-import": "0.1.0",
-        "@rill/eslint-config-promise": "0.1.0",
-        "@rill/eslint-config-ts": "0.1.0"
+        "@rill/eslint-config-import": "0.1.1",
+        "@rill/eslint-config-mocha": "0.1.1",
+        "@rill/eslint-config-promise": "0.1.1",
+        "@rill/eslint-config-ts": "0.1.1"
     }
 }
