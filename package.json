@@ -3,6 +3,8 @@
 	"scripts": {
 		"clean": "lerna exec rimraf node_modules --parallel",
 		"clean:dist": "lerna exec rimraf dist --parallel",
+		"unlock": "lerna exec rimraf package-lock.json --stream",
+		"packages:link": "lerna exec npm link --stream",
 		"boot": "lerna bootstrap --hoist",
 		"testing": "./_devops/testing-pyramid/full-run.sh",
 		"test": "jest --verbose --detectOpenHandles",
@@ -17,7 +19,7 @@
 		"build": "lerna run build --stream",
 		"watch": "lerna run watch --stream",
 		"rill": "lerna --scope=@rill/rill run site --stream --",
-		"rill:build": "lerna-watch @rill/rill",
+		"rill:build": "npx lerna-watch @rill/rill",
 		"rill:e2e": "lerna --scope=@rill/rill run e2e",
 		"ui-stock": "lerna --scope=@rill/ui-stock run site --stream --",
 		"ui-stock:build": "lerna-watch @rill/ui-stock",

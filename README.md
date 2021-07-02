@@ -1,7 +1,29 @@
 # Rill messenger app
 
-## Overal scheme
+## Preparation steps
+1) `npm install`
+2) `npm run boot` - to bootstrap dependencies
 
+## How to run the main project
+1) `npm run rill:build` - to run build process for all dependencies graph for rill project
+2) `npm run rill` - to run the website
+3) `npm run rill:e2e` - to run the end-to-end tests
+
+## How to run entities development
+1) `npm run entities-stock:build`
+2) `npm run entities-stock` - to run the website
+3) `npm run entities-stock:e2e` - to run the end-to-end tests
+
+## How to run ui-kit development
+1) `npm run ui-stock:build`
+2) `npm run ui-stock`
+
+
+## Tests
+`npm run test` - unit-tests
+
+
+## Overal scheme
 Meta-lib is a way to achieve modules isolation without losing code reusability. 
 The general steps for fulfilling such intention is next:
 * `Separate layers` - each layer produces some certain product type (for example, CSS rules, styled-components, data providers)
