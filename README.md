@@ -31,7 +31,7 @@ The general steps for fulfilling such intention is next:
 * `Implicitly indicate what does the lib use and what lib is the source of code` - each lib contains one top folder (_employee) which in turn, contains a list of files (name of each file is the same as the lib name that donates code). That helps to define and visualize what are the dependencies of the lib.
 * `Separate the most abstract types/function into [layer]-meta lib` - this is the implementation of the inversion of control design principle. Each lib should strive to be dependent only on the most abstract stuff (types, constants, function). The [x]-meta lib should be the most resilience lib for any significant refactoring. But due to the abstract nature of its stuff, it's quite easy to achieve this.
 
-![alt text](https://lh6.googleusercontent.com/JRmTrv5iHSdJQ0xv7DojOEFqHRHIAVIgh4Y-SCfU0YLh5GJ320KVWxfvFbVkwBpG4QmR4y8vkl9OtBueCqz0=w1920-h830)
+![alt text](https://stezor-img-res.s3.eu-central-1.amazonaws.com/690x0/a5182c22-9e1c-4c3f-ba10-bb124e5eeb7f)
 
 
 ![alt text](https://stezor-img-res.s3.eu-central-1.amazonaws.com/690x0/ffbad351-1e42-47df-99cf-3fb18bb0b5cf)
