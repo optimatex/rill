@@ -1,7 +1,7 @@
 {
-  "private": true,
+  "private": false,
   "name": "@rill/ui-stock",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "scripts": {
     "check-types": "tsc",
     "site": "webpack serve --color --progress",
@@ -9,13 +9,13 @@
     "e2e:all": "cypress run --headed --browser chrome --spec=cypress/integration/**"
   },
   "dependencies": {
-    "@rill/rill-theme": "0.1.0",
-    "@rill/rill-app-style": "0.1.0",
-    "@rill/icons-map": "0.1.0",
-    "@rill/ui-kit": "0.1.0",
-    "@rill/view": "0.1.0",
-    "@rill/cypress-kit": "0.1.0",
-    "@rill/cypress-selectors": "0.1.0"
+    "@rill/cypress-kit": "0.1.1",
+    "@rill/cypress-selectors": "0.1.1",
+    "@rill/icons-map": "0.1.1",
+    "@rill/rill-app-style": "0.1.1",
+    "@rill/rill-theme": "0.1.1",
+    "@rill/ui-kit": "0.1.1",
+    "@rill/view": "0.1.1"
   },
   "devDependencies": {
     "@babel/preset-env": "7.14.5",

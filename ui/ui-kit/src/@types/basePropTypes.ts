@@ -1,4 +1,4 @@
-import { IContainerProps } from '_employee/view';
+import { RC } from '_employee/view';
 
 export type TestIdSetter = (p: ReactProps) => ReactProps;
 
@@ -18,7 +18,8 @@ export interface ITextProps {
   text: string;
 }
 
-export interface IPostProps extends IContainerProps {
+export interface IPostProps {
   title?: string;
   'data-testid'?: string;
+  children: RC;
 }

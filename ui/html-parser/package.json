@@ -1,7 +1,7 @@
 {
   "name": "@rill/html-parser",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.1.1",
+  "private": false,
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
@@ -15,13 +15,13 @@
     "lint:fix": "eslint --fix . --ignore-path ../../.eslintignore --ext ts --ext tsx"
   },
   "dependencies": {
-    "@rill/utils": "0.1.0",
-    "@rill/view": "0.1.0",
-    "@rill/eslint-config-bundle-react": "0.1.0"
+    "@rill/eslint-config-bundle-react": "0.1.1",
+    "@rill/utils": "0.1.1",
+    "@rill/view": "0.1.1"
   },
   "peerDependencies": {
-    "html-to-react": "1.4.5",
     "@rollup/plugin-typescript": "6.1.0",
+    "html-to-react": "1.4.5",
     "tslib": "2.0.3",
     "typescript": "4.0.3"
   }
