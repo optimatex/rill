@@ -1,27 +1,25 @@
 {
   "compilerOptions": {
-    "outDir": "./dist",
-    "baseUrl": ".",
-    "paths": {
-      "@rill/*": [
-        "packages/*/src",
-        "packages/*/dist",
-        "packages/*/dist/src"
-      ],
-    },
     "declaration": true,
     "declarationMap": true,
-    "declarationDir": "./dist/src",
     "module": "es6",
     "moduleResolution": "node",
     "target": "es5",
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "jsx": "react",
+    "noEmitOnError": false,
     "types": [
       "node",
       "jest"
-    ]
+    ],
+    "skipLibCheck": true,
+    "paths": {
+      "@rill/*": [
+        "packages/*/src",
+        "ui/*/src",
+      ]
+    }
   },
   "include": [
     "packages",

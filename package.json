@@ -17,7 +17,7 @@
 		"lint:fix:check": "lerna run lint:fix --bail --parallel",
 		"lint:css": "stylelint './packages/*/src/**/*.tsx'",
 		"build": "lerna run build --stream",
-		"watch": "lerna run watch --stream",
+		"watch": "lerna run watch",
 		"rill": "lerna --scope=@rill/rill run site --stream --",
 		"rill:build": "npx lerna-watch @rill/rill",
 		"rill:e2e": "lerna --scope=@rill/rill run e2e",

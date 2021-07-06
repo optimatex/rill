@@ -2,6 +2,8 @@
   "extends": "../../tsconfig.json",
   "compilerOptions": {
     "baseUrl": ".",
+    "declarationDir": "./dist",
+    "outDir": "./dist",
     "paths": {
       "*": [
         "./src/*"
@@ -17,12 +19,15 @@
         "../*/dist",
         "../*/dist/src",
       ]
-    }
+    },
   },
   "include": [
-    "src/"
+    "src/*",
+    "../../node_modules/cypress/"
   ],
   "exclude": [
-    "node_modules"
+    "node_modules/",
+    "test/",
+    "dist/"
   ]
 }

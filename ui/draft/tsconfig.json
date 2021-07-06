@@ -2,6 +2,8 @@
   "extends": "../../tsconfig.json",
   "compilerOptions": {
     "baseUrl": ".",
+    "declarationDir": "./dist",
+    "outDir": "./dist",
     "paths": {
       "*": [
         "./src/*"
@@ -20,10 +22,11 @@
     },
   },
   "include": [
-    "src/",
-    "../../config/jest/typings.d.ts"
+    "src/*"
   ],
   "exclude": [
-    "node_modules"
+    "node_modules/",
+    "test/",
+    "dist/"
   ]
 }

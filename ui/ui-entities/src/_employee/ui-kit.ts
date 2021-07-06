@@ -15,8 +15,6 @@ export {
   Image,
   ImageCropper,
   ImagesLayout,
-  // Video
-  YoutubeVideos,
   // Content
   RichContentContainer,
 } from '@rill/ui-kit';

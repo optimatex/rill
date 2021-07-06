@@ -10,7 +10,7 @@
   ],
   "scripts": {
     "build": "rollup -c",
-    "watch": "rollup -cw",
+    "watch": "tsc -p tsconfig.json",
     "lint": "eslint . --ignore-path ../../.eslintignore --ext ts --ext tsx",
     "lint:fix": "eslint --fix . --ignore-path ../../.eslintignore --ext ts --ext tsx"
   },

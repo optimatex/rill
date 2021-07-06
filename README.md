@@ -3,6 +3,7 @@
 ## Preparation steps
 1) `npm install`
 2) `npm run boot` - to bootstrap dependencies
+2) `npm run watch` - to run watch mode
 
 ## How to run the main project
 1) `npm run rill:build` - to run build process for all dependencies graph for rill project
