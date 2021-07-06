@@ -6,18 +6,15 @@
 2) `npm run watch` - to run watch mode
 
 ## How to run the main project
-1) `npm run rill:build` - to run build process for all dependencies graph for rill project
-2) `npm run rill` - to run the website
-3) `npm run rill:e2e` - to run the end-to-end tests
+1) `npm run rill` - to run the website
+2) `npm run rill:e2e` - to run the end-to-end tests
 
 ## How to run entities development
-1) `npm run entities-stock:build`
-2) `npm run entities-stock` - to run the website
-3) `npm run entities-stock:e2e` - to run the end-to-end tests
+1) `npm run entities-stock` - to run the website
+2) `npm run entities-stock:e2e` - to run the end-to-end tests
 
 ## How to run ui-kit development
-1) `npm run ui-stock:build`
-2) `npm run ui-stock`
+1) `npm run ui-stock`
 
 
 ## Tests
